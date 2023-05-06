@@ -46,8 +46,8 @@ export class Cart extends React.Component {
                 <tr>
                     <td>{this.state.name}</td>
                     <td>{this.state.price}</td>
-                    <td style={{ marginLeft: 30,
-                        marginRight: 30,
+                    <td style={{ paddingLeft: 20,
+                        paddingRight: 20,
                         display: "flex",
                         flexDirection: "row",
                         alignItems: "center",}}>

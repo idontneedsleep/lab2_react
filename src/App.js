@@ -30,19 +30,25 @@ function App() {
             {listCounter}
         </ul>
         <div class="cart">
-            <h1>Cart</h1>
-            <table key={carts} class="bp4-html-table-striped">
-                <tr>
-                    <th>Name</th>
-                    <th>Price</th>
-                    <th>Quantity</th>
-                    <th>Total</th>
-                </tr>
-                {listCart}
-                <tr>
-                    <td colSpan='3' >Total</td>
-                    <td>--</td>
-                </tr>
+            <h2>Cart</h2>
+            <table key={carts} class="bp4-html-table bp4-html-table-striped bp4-html-table-bordered">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {listCart}
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colSpan='3' >Total</td>
+                        <td>--</td>
+                    </tr>
+                </tfoot>
             </table>
         </div>
 
