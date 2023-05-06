@@ -1,5 +1,7 @@
 @import "normalize.css";
 @import "@blueprintjs/core/lib/css/blueprint.css";
+@import "@blueprintjs/table/lib/css/table.css";
+@import "@blueprintjs/popover2/lib/css/blueprint-popover2.css";
 .App {
   text-align: center;
 }
@@ -40,6 +42,7 @@
 }
 button {
   margin-right: 10px;
+  margin-left: 10px;
 }
 .customclass {
   color: #5642A6;
@@ -50,7 +53,16 @@ button {
 .div_custom {
   margin-top: 20px;
   margin-left: 50px;
+  margin-right: 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+h1 {
+  text-align: left;
+  margin-left: 30px;
+}
+.cart {
+  margin-top: 20px;
+  margin-left: 30px;
 }
